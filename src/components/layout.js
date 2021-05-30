@@ -10,9 +10,9 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { ChatIcon } from "@heroicons/react/outline"
 
-import Header from "./Header"
-import Content from "./Content"
-import Footer from "./Footer"
+import Header from "./header"
+import Content from "./content"
+import Footer from "./footer"
 import { useSticky } from "../hooks"
 import '../utils/fontawesome'
 

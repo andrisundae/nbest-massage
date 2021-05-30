@@ -2,9 +2,9 @@ import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import { PhoneIcon, MailIcon, MapIcon, TrendingDownIcon, ViewListIcon, ViewGridAddIcon, UsersIcon} from '@heroicons/react/outline'
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
-import GoogleMaps from "../components/GoogleMaps"
+import GoogleMaps from "../components/googleMaps"
 
 const layanan = [
   {
