@@ -14,13 +14,13 @@ function Footer() {
       "https://www.instagram.com/nbestbalimassage/?utm_medium=copy_link",
       "_blank"
     )
-  }, []);
+  }, [])
   const openFacebook = useCallback(() => {
     window.open(
       "https://www.facebook.com/profile.php?id=100070654096541",
       "_blank"
     )
-  }, []);
+  }, [])
   return (
     <footer className="relative bg-indigo-600 pt-8 pb-6">
       <svg
@@ -178,17 +178,26 @@ function Footer() {
               </h1>
               <div className="flex flex-col justify-center text-gray-400 mt-5 space-y-2">
                 <div className="flex items-center space-x-3">
-                  <PhoneIcon className="h-12 w-12 md:h-6 md:w-6" aria-hidden="true" />
+                  <PhoneIcon
+                    className="h-12 w-12 md:h-6 md:w-6"
+                    aria-hidden="true"
+                  />
                   <span>
                     081236583768 / 089515331688 (Telepon dan whatsapp)
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <MailIcon className="h-6 w-6 md:h-6 md:w-6" aria-hidden="true" />
+                  <MailIcon
+                    className="h-6 w-6 md:h-6 md:w-6"
+                    aria-hidden="true"
+                  />
                   <span>info@nbestbalimassage.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <MapIcon className="h-12 w-12 md:h-6 md:w-6" aria-hidden="true" />
+                  <MapIcon
+                    className="h-12 w-12 md:h-6 md:w-6"
+                    aria-hidden="true"
+                  />
                   <span>
                     Jln. Pantai Berawa No. 94, Tibubeneng, Canggu, Kuta Utara
                     Bali

@@ -427,13 +427,13 @@ const IndexPage = () => (
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
                 <p>
-                Full body massage, balinese massage, javanese massage, VIP
-                reflexy massage
+                  Full body massage, balinese massage, javanese massage, VIP
+                  reflexy massage
                 </p>
               </div>
             </div>
             <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
-            <StaticImage
+              <StaticImage
                 className="w-full rounded-lg opacity-80"
                 src="../images/price-3.jpg"
                 quality={95}
@@ -455,8 +455,8 @@ const IndexPage = () => (
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
                 <p>
-                Full body massage, balinese massage, javanese massage, VIP
-                reflexy massage
+                  Full body massage, balinese massage, javanese massage, VIP
+                  reflexy massage
                 </p>
               </div>
             </div>

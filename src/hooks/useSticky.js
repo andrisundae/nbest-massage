@@ -6,26 +6,24 @@ function useSticky() {
   const element = useRef(null)
 
   const handleScroll = useCallback(() => {
-    window.scrollY > 100
-      ? setSticky(true)
-      : setSticky(false)
-  }, []);
+    window.scrollY > 100 ? setSticky(true) : setSticky(false)
+  }, [])
 
   const debounce = useCallback((func, wait = 10, immediate = true) => {
-    let timeOut;
+    let timeOut
     return () => {
       let context = this,
-        args = arguments;
+        args = arguments
       const later = () => {
-        timeOut = null;
-        if (!immediate) func.apply(context, args);
-      };
-      const callNow = immediate && !timeOut;
-      clearTimeout(timeOut);
-      timeOut = setTimeout(later, wait);
-      if (callNow) func.apply(context, args);
-    };
-  }, []);
+        timeOut = null
+        if (!immediate) func.apply(context, args)
+      }
+      const callNow = immediate && !timeOut
+      clearTimeout(timeOut)
+      timeOut = setTimeout(later, wait)
+      if (callNow) func.apply(context, args)
+    }
+  }, [])
 
   useEffect(() => {
     window.addEventListener("scroll", debounce(handleScroll))

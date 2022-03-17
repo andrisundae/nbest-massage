@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'NBEST Bali Massage',
+    title: "NBEST Bali Massage",
     description: `Layanan Jasa pijat spa massage panggilan ke rumah, kos, hotel, villa dan apartemen 24 jam.`,
     author: `@gatsbyjs`,
     // secret: {
@@ -23,8 +23,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'NBEST Bali Massage',
-        short_name: 'NBEST Bali Massage',
+        name: "NBEST Bali Massage",
+        short_name: "NBEST Bali Massage",
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,

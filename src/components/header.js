@@ -1,25 +1,28 @@
-import React, {Fragment} from "react"
+import React, { Fragment } from "react"
 import PropTypes from "prop-types"
-import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Popover, Transition } from "@headlessui/react"
+import { MenuIcon, XIcon } from "@heroicons/react/outline"
 import { StaticImage } from "gatsby-plugin-image"
 
 const navigation = [
-  { name: 'About Us', href: '#about-us' },
-  { name: 'Services', href: '#services' },
-  { name: 'Prices', href: '#prices' },
+  { name: "About Us", href: "#about-us" },
+  { name: "Services", href: "#services" },
+  { name: "Prices", href: "#prices" },
 ]
 
 const Header = ({ siteTitle, sticky, stickyRef }) => {
-  const buttonRef = React.useRef();
+  const buttonRef = React.useRef()
   const handleClickPanel = () => {
     buttonRef.current?.click()
-  };
+  }
   return (
     <header
-      className={`bg-white w-full transition duration-200 ease-in-out ${sticky ?
-        'fixed -top-24 animated z-50 shadow-lg transform translate-y-24 ' :
-        'relative top-0'}`}>
+      className={`bg-white w-full transition duration-200 ease-in-out ${
+        sticky
+          ? "fixed -top-24 animated z-50 shadow-lg transform translate-y-24 "
+          : "relative top-0"
+      }`}
+    >
       <Popover>
         {({ open }) => (
           <>
@@ -41,7 +44,9 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                           formats={["AUTO", "WEBP", "AVIF"]}
                           alt="Logo"
                         />
-                        <h3 className="ml-2 text-indigo-500 tracking-tighter font-bold text-xl">NBest Bali Masssage</h3>
+                        <h3 className="ml-2 text-indigo-500 tracking-tighter font-bold text-xl">
+                          NBest Bali Masssage
+                        </h3>
                       </div>
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -53,11 +58,18 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                   </div>
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 mx-auto">
-                  <a href="#home" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a
+                    href="#home"
+                    className="font-medium text-indigo-600 hover:text-indigo-500"
+                  >
                     Home
-                </a>
-                  {navigation.map((item) => (
-                    <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                  </a>
+                  {navigation.map(item => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="font-medium text-gray-500 hover:text-gray-900"
+                    >
                       {item.name}
                     </a>
                   ))}
@@ -93,14 +105,17 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                       />
                     </div>
                     <div className="-mr-2">
-                      <Popover.Button ref={buttonRef} className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                      <Popover.Button
+                        ref={buttonRef}
+                        className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+                      >
                         <span className="sr-only">Close main menu</span>
                         <XIcon className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
                     </div>
                   </div>
                   <div className="px-2 pt-2 pb-3 space-y-1">
-                    {navigation.map((item) => (
+                    {navigation.map(item => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -115,7 +130,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Home
-                </a>
+                  </a>
                 </div>
               </Popover.Panel>
             </Transition>
