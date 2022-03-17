@@ -4,7 +4,6 @@ import { PhoneIcon, MailIcon, MapIcon } from "@heroicons/react/outline"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import GoogleMaps from "../components/googleMaps"
 
 const layanan = [
   {
@@ -66,25 +65,6 @@ const layanan = [
         placeholder="blurred"
       />
     ),
-  },
-]
-
-const threatmentAfterPackage = [
-  {
-    name: "Lulur",
-    price: "Rp 50.000,00",
-  },
-  {
-    name: "Kerokan",
-    price: "Rp 50.000,00",
-  },
-  {
-    name: "Totok wajah",
-    price: "Rp 50.000,00",
-  },
-  {
-    name: "Pijat refleksi",
-    price: "Rp 50.000,00",
   },
 ]
 
