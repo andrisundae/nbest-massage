@@ -8,7 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { ChatIcon } from "@heroicons/react/outline"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Header from "./header"
 import Content from "./content"
@@ -35,13 +35,13 @@ const Layout = ({ children }) => {
         {children}
       </Content>
       <Footer />
-      <div className="fixed right-3 bottom-8 md:right-0 md:bottom-10 z-30">
+      <div className="fixed w-36 right-1 bottom-5 md:right-0 md:bottom-10 z-30">
         <a
-          href="https://api.whatsapp.com/send?phone=6281236583768&text=Hallo, saya ingin tanya tentang massage."
-          className="h-10 w-10 md:w-full flex items-center justify-center border border-transparent text-base font-medium rounded-full md:px-3 md:rounded-r-none shadow-lg text-white bg-green-500 hover:bg-green-600"
+          href="https://api.whatsapp.com/send?phone=6281236583768&text=Hallo NBest, I Want To Book a Massage."
+          className="py-1 animate-bounce h-5 w-full flex items-center justify-center border border-transparent text-base font-medium rounded-full md:rounded-r-none shadow-lg text-white bg-green-500 hover:bg-green-600"
         >
-          <ChatIcon className="h-5 w-5" aria-hidden="true" />
-          <span className="hidden md:inline-block md:ml-1">Chat kami di whatsapp</span>
+          <span className="mr-2">Contact Us</span>
+          <FontAwesomeIcon className="h-6 w-6" icon={['fab', 'whatsapp']} />
         </a>
       </div>
     </div>

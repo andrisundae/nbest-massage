@@ -1,6 +1,4 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
-
 import GoogleMapReact from 'google-map-react';
 
 const Marker = () => (
@@ -11,19 +9,7 @@ const Marker = () => (
 );
 
 const GoogleMaps = () => {
-    const data = useStaticQuery(graphql`
-    query SiteGoogleMapsKeyQuery {
-      site {
-        siteMetadata {
-          secret {
-            googleMapsKey
-          }
-        }
-      }
-    }
-  `)
-    const googleMapsKey = data.site.siteMetadata?.secret?.googleMapsKey;
-
+    const googleMapsKey = process.env.GATSBY_GOOGLE_ADDRESS_MAP_KEY;
     const mapConfig = {
         center: {
             lat: -8.666790460960932,

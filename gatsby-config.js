@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Telang Spa and Massage`,
+    title: 'NBEST Bali Massage',
     description: `Layanan Jasa pijat spa massage panggilan ke rumah, kos, hotel, villa dan apartemen 24 jam.`,
     author: `@gatsbyjs`,
-    secret: {
-      googleMapsKey: 'AIzaSyAwPcluBKt-t-ZaWdkZ0wxaKPBSDSDctFg'
-    }
+    // secret: {
+    //   googleMapsKey: 'AIzaSyAwPcluBKt-t-ZaWdkZ0wxaKPBSDSDctFg'
+    // }
   },
   plugins: [
     `gatsby-plugin-postcss`,
@@ -23,13 +23,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: 'NBEST Bali Massage',
+        short_name: 'NBEST Bali Massage',
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.jpeg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-gatsby-cloud`,
