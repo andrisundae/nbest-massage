@@ -10,11 +10,11 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
-import Header from "./header"
-import Content from "./content"
-import Footer from "./footer"
-import { useSticky } from "../hooks"
-import "../utils/fontawesome"
+import Header from "../header"
+import Content from "../content"
+import Footer from "../footer"
+import { useSticky } from "../../hooks"
+import "../../utils/fontawesome"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
