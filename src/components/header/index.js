@@ -39,7 +39,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                       <div className="flex justify-center items-center">
                         <StaticImage
                           className="rounded-full h-12 w-12 ring-2 ring-indigo-300"
-                          src="../images/logo.jpeg"
+                          src="../../images/logo.jpeg"
                           quality={95}
                           formats={["AUTO", "WEBP", "AVIF"]}
                           alt="Logo"
@@ -98,7 +98,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                     <div>
                       <StaticImage
                         className="rounded-full h-12 w-12 ring-2 ring-indigo-300"
-                        src="../images/logo.jpeg"
+                        src="../../images/logo.jpeg"
                         quality={95}
                         formats={["AUTO", "WEBP", "AVIF"]}
                         alt="Logo"
