@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        "section-main": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('/images/section-main.jpg')`,
-        "section-aboutus": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('/images/section-about.jpg')`,
-        "section-service": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('/images/spa-2.jpeg')`,
+        "section-main": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('../images/section-main.jpg')`,
+        "section-aboutus": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('../images/section-about.jpg')`,
+        "section-service": `linear-gradient(90deg,${colors.gray[50]} 30%,rgba(244,240,233,0) 100%), url('../images/spa-2.jpg')`,
       }),
     },
     minHeight: {
