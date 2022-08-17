@@ -8,13 +8,13 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { FaWhatsapp } from "@react-icons/all-files/fa/FaWhatsapp"
 
 import Header from "../header"
 import Content from "../content"
 import Footer from "../footer"
 import { useSticky } from "../../hooks"
-import "../../utils/fontawesome"
+// import "../../utils/fontawesome"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -43,7 +43,7 @@ const Layout = ({ children }) => {
           className="py-1 animate-bounce h-5 w-full flex items-center justify-center border border-transparent text-base font-medium rounded-full md:rounded-r-none shadow-lg text-white bg-green-500 hover:bg-green-600"
         >
           <span className="mr-2">Contact Us</span>
-          <FontAwesomeIcon className="h-6 w-6" icon={["fab", "whatsapp"]} />
+          <FaWhatsapp className="h-6 w-6" />
         </a>
       </div>
     </div>

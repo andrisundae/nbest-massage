@@ -1,9 +1,30 @@
 import React from "react"
 import { StaticImage } from "gatsby-plugin-image"
-import { PhoneIcon, MailIcon, MapIcon } from "@heroicons/react/outline"
+import Slider from "react-slick"
 
+import { HiPhone } from "@react-icons/all-files/hi/HiPhone"
+import { HiMail } from "@react-icons/all-files/hi/HiMail"
+import { FaMap } from "@react-icons/all-files/fa/FaMap"
+import { FcClock } from "@react-icons/all-files/fc/FcClock"
+import { FcShipped } from "@react-icons/all-files/fc/FcShipped"
+import { FcBusinesswoman } from "@react-icons/all-files/fc/FcBusinesswoman"
+import { FcApproval } from "@react-icons/all-files/fc/FcApproval"
+import { FcDiploma2 } from "@react-icons/all-files/fc/FcDiploma2"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+
+const settings = {
+  dots: true,
+  infinite: true,
+  speed: 2000,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  // autoplaySpeed: 2000,
+  // cssEase: "linear",
+}
 
 const layanan = [
   {
@@ -68,127 +89,50 @@ const layanan = [
   },
 ]
 
-const therapist = [
+const whyChooseUs = [
   {
-    id: 1,
-    name: "Dinda",
-    age: 31,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Dinda.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Dinda 21th"
-        height={450}
-        // width={400}
-      />
-    ),
+    title: "Professional Therapist",
+    desc: "We provide experienced & professional therapists in their fields.",
+    icon: <FcDiploma2 size={80} />,
   },
   {
-    id: 3,
-    name: "Maria",
-    age: 32,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Maria.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Maria 32th"
-        height={450}
-      />
-    ),
+    title: "Young Therapist",
+    desc: "We have young therapists who are trained & experienced.",
+    icon: <FcBusinesswoman size={80} />,
   },
   {
-    id: 8,
-    name: "Lisa",
-    age: 33,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Lisa.jpg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Lisa 33th"
-        height={450}
-      />
-    ),
+    title: "Free Transport",
+    desc: "Harga yang kami tawarkan di paket massage sudah termasuk transport",
+    icon: <FcShipped size={80} />,
   },
   {
-    id: 2,
-    name: "Ina",
-    age: 35,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Ina.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Ina 35th"
-        height={450}
-      />
-    ),
+    title: "24 Hours Service",
+    desc: "The price we offer in the massage package includes transportation",
+    icon: <FcClock size={80} />,
   },
   {
-    id: 4,
-    name: "Caca",
-    age: 22,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Ida.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Caca 22th"
-        height={450}
-      />
-    ),
+    title: "Guaranteed Cleanliness",
+    desc:
+      "Massage cloths are guaranteed to be clean, fragrant and not used by people",
+    icon: <FcApproval size={80} />,
+  },
+]
+
+const messages = [
+  {
+    comment:
+      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open 24 hours so it can help if I'm tired after work.",
+    name: "Rendi",
   },
   {
-    id: 5,
-    name: "Ida",
-    age: 20,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Caca.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Ida 20th"
-        height={450}
-      />
-    ),
+    comment:
+      "The first time I tried a call massage service for the SPA the results were satisfactory, the therapist was very professional, could come directly to my location, it was very easy for those who were lazy to leave the house..",
+    name: "Putri",
   },
   {
-    id: 6,
-    name: "Dhany",
-    age: 36,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Dani.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Dhany 36th"
-        height={450}
-      />
-    ),
-  },
-  {
-    id: 7,
-    name: "Dedy",
-    age: 32,
-    photo: (
-      <StaticImage
-        className="w-full rounded-lg"
-        src={`../images/Dedi.jpeg`}
-        quality={95}
-        formats={["AUTO", "WEBP", "AVIF"]}
-        alt="Dedy 32th"
-        height={450}
-      />
-    ),
+    comment:
+      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open 24 hours so it can help if I'm tired after work.",
+    name: "Albert",
   },
 ]
 
@@ -218,7 +162,7 @@ const IndexPage = () => (
         <div className="mt-5 sm:mt-8 lg:flex lg:justify-start">
           <div className="rounded-md shadow">
             <a
-              href="tel:+6281236583768"
+              href="tel:+6282139702121"
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
             >
               Contact Us
@@ -226,7 +170,7 @@ const IndexPage = () => (
           </div>
           <div className="mt-3 lg:mt-0 lg:ml-3">
             <a
-              href="https://api.whatsapp.com/send?phone=6281236583768&text=Hallo NBest, I Want To Book a Massage."
+              href="https://api.whatsapp.com/send?phone=6282139702121&text=Hallo NBest, I Want To Book a Massage."
               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
             >
               Chat Us on Whatsapp
@@ -278,7 +222,7 @@ const IndexPage = () => (
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
-                  <MapIcon className="h-6 w-6" aria-hidden="true" />
+                  <FaMap className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-12 text-lg leading-4 font-medium text-gray-900">
                   Address
@@ -291,7 +235,7 @@ const IndexPage = () => (
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
-                  <MailIcon className="h-6 w-6" aria-hidden="true" />
+                  <HiMail className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-12 text-lg leading-4 font-medium text-gray-900">
                   Email
@@ -304,14 +248,14 @@ const IndexPage = () => (
             <div className="relative">
               <dt>
                 <div className="absolute flex items-center justify-center h-8 w-8 rounded-md bg-indigo-500 text-white">
-                  <PhoneIcon className="h-6 w-6" aria-hidden="true" />
+                  <HiPhone className="h-6 w-6" aria-hidden="true" />
                 </div>
                 <p className="ml-12 text-lg leading-4 font-medium text-gray-900">
                   Telephone and whatsapp
                 </p>
               </dt>
               <dd className="mt-2 md:ml-12 text-base text-gray-800 md:text-gray-500">
-                081236583768 / 089515331688
+                082139702121 / 089515331688
               </dd>
             </div>
           </div>
@@ -394,7 +338,7 @@ const IndexPage = () => (
               </div>
               <div className="w-full text-center px-8 mt-8">
                 <span className="text-base text-indigo-500">IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">200K</span>
+                <span className="text-4xl text-indigo-500 font-bold">250K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
@@ -422,7 +366,7 @@ const IndexPage = () => (
               </div>
               <div className="w-full text-center px-8 mt-8">
                 <span className="text-base text-indigo-500">IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">250K</span>
+                <span className="text-4xl text-indigo-500 font-bold">300K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
@@ -450,7 +394,7 @@ const IndexPage = () => (
               </div>
               <div className="w-full text-center px-8 mt-8">
                 <span className="text-base text-indigo-500">IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">350K</span>
+                <span className="text-4xl text-indigo-500 font-bold">400K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
@@ -464,27 +408,50 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-    <section id="theraphis" className="container px-8 py-10 text-base mt-8">
+    <section
+      id="question"
+      className="container bg-section-choose-us bg-no-repeat bg-fixed bg-cover px-8 py-10 text-base mt-8"
+    >
       <h1 className="text-center text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
-        Therapist
+        Why choose us ?
       </h1>
-      <div className="mt-10 grid gap-4 md:gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {therapist.map(({ id, photo, name, age }) => {
+      <div className="p-5 w-full flex flex-wrap mt-3">
+        {whyChooseUs.map(row => (
+          <div key={row.title} className="w-full md:w-1/2 lg:w-1/3 p-3">
+            <div className="flex flex-row items-center">
+              <div className="relative h-15 w-15">{row.icon}</div>
+              <div className="ml-3">
+                <h3 className="text-2xl text-gray-500">{row.title}</h3>
+                <span>{row.desc}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+    <section id="comment" className="container px-8 py-10 text-base mt-8">
+      <h1 className="text-center text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        What are they saying
+      </h1>
+      <Slider className="my-10" {...settings}>
+        {messages.map(row => {
           return (
             <div
-              key={id}
-              className="relative rounded-lg shadow-lg overflow-hidden bg-gray-300"
+              style={{ height: 400 }}
+              className="h-15 items-center flex-1 text-center p-5"
+              key={row.name}
             >
-              {photo}
-              <div className="text-center w-5/12 absolute left-0 bottom-0 bg-gray-300 py-2 rounded-tr-lg">
-                <h3 className="text-lg text-gray-500 self-center">
-                  {name} {`${age}th`}
-                </h3>
-              </div>
+              <p className="font-mono italic text-gray-500">{row.comment}</p>
+              <h5 className="mt-10 text-gray-400">{row.name}</h5>
             </div>
           )
         })}
-      </div>
+      </Slider>
+    </section>
+    <section id="theraphis" className="container px-8 py-10 text-base mt-8">
+      <h1 className="text-center text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
+        Therapist by request in whatsapp
+      </h1>
     </section>
   </Layout>
 )

@@ -1,11 +1,11 @@
-import {
-  MailIcon,
-  MapIcon,
-  PhoneIcon,
-  ChevronUpIcon,
-} from "@heroicons/react/outline"
+import { HiMail as MailIcon } from "@react-icons/all-files/hi/HiMail"
+import { HiPhone as PhoneIcon } from "@react-icons/all-files/hi/HiPhone"
+import { HiChevronUp as ChevronUpIcon } from "@react-icons/all-files/hi/HiChevronUp"
+import { FaMap as MapIcon } from "@react-icons/all-files/fa/FaMap"
 import React, { useCallback } from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
+import { FaFacebookSquare } from "@react-icons/all-files/fa/FaFacebookSquare"
+import { FaInstagramSquare } from "@react-icons/all-files/fa/FaInstagramSquare"
 import { Disclosure, Transition } from "@headlessui/react"
 
 function Footer() {
@@ -105,8 +105,8 @@ function Footer() {
                           best Massage you have ever tried.
                         </p>
                         <div className="mt-4">
-                          <p>Telephone: +6281236583768</p>
-                          <p>WhatsApp: +6281236583768</p>
+                          <p>Telephone: +6282139702121</p>
+                          <p>WhatsApp: +6282139702121</p>
                         </div>
                       </Disclosure.Panel>
                     </Transition>
@@ -165,7 +165,7 @@ function Footer() {
             </div>
             <div>
               <a
-                href="https://api.whatsapp.com/send?phone=6281236583768&text=Hallo NBest, I Want To Book a Massage."
+                href="https://api.whatsapp.com/send?phone=6282139702121&text=Hallo NBest, I Want To Book a Massage."
                 className="w-full uppercase flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-full text-white bg-green-400 hover:bg-green-500 md:py-4 md:text-lg md:px-10"
               >
                 Book your session now
@@ -183,7 +183,7 @@ function Footer() {
                     aria-hidden="true"
                   />
                   <span>
-                    081236583768 / 089515331688 (Telepon dan whatsapp)
+                    082139702121 / 089515331688 (Telepon dan whatsapp)
                   </span>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -210,27 +210,21 @@ function Footer() {
                 className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:bg-gray-300"
                 type="button"
               >
-                <FontAwesomeIcon className="flex" icon={["fab", "twitter"]} />
+                <FaTwitter className="flex" />
               </button>
               <button
                 className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:bg-gray-300"
                 type="button"
                 onClick={openFacebook}
               >
-                <FontAwesomeIcon
-                  className="flex"
-                  icon={["fab", "facebook-square"]}
-                />
+                <FaFacebookSquare className="flex" />
               </button>
               <button
                 className="bg-white text-indigo-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3 hover:bg-gray-300"
                 type="button"
                 onClick={openInstagram}
               >
-                <FontAwesomeIcon
-                  className="flex"
-                  icon={["fab", "instagram-square"]}
-                />
+                <FaInstagramSquare className="flex" />
               </button>
             </div>
           </div>

@@ -5,12 +5,8 @@
   "version": "0.1.0",
   "author": "Andris Sundae <andiiais@gmail.com>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
     "@headlessui/react": "^1.2.0",
-    "@heroicons/react": "^1.0.1",
+    "@react-icons/all-files": "^4.1.0",
     "gatsby": "^3.4.1",
     "gatsby-plugin-gatsby-cloud": "^2.4.1",
     "gatsby-plugin-image": "^1.4.0",
@@ -24,7 +20,9 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.5",

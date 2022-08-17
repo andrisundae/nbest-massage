@@ -1,7 +1,8 @@
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 import { Popover, Transition } from "@headlessui/react"
-import { MenuIcon, XIcon } from "@heroicons/react/outline"
+import { HiMenu } from "@react-icons/all-files/hi/HiMenu"
+import { HiX } from "@react-icons/all-files/hi/HiX"
 import { StaticImage } from "gatsby-plugin-image"
 
 const navigation = [
@@ -39,7 +40,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                       <div className="flex justify-center items-center">
                         <StaticImage
                           className="rounded-full h-12 w-12 ring-2 ring-indigo-300"
-                          src="../../images/logo.jpeg"
+                          src="../../images/logo.png"
                           quality={95}
                           formats={["AUTO", "WEBP", "AVIF"]}
                           alt="Logo"
@@ -52,7 +53,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                         <span className="sr-only">Open main menu</span>
-                        <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                        <HiMenu className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
                     </div>
                   </div>
@@ -98,7 +99,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                     <div>
                       <StaticImage
                         className="rounded-full h-12 w-12 ring-2 ring-indigo-300"
-                        src="../../images/logo.jpeg"
+                        src="../../images/logo.png"
                         quality={95}
                         formats={["AUTO", "WEBP", "AVIF"]}
                         alt="Logo"
@@ -110,7 +111,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
                         className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
                       >
                         <span className="sr-only">Close main menu</span>
-                        <XIcon className="h-6 w-6" aria-hidden="true" />
+                        <HiX className="h-6 w-6" aria-hidden="true" />
                       </Popover.Button>
                     </div>
                   </div>
