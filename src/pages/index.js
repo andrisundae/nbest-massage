@@ -102,12 +102,13 @@ const whyChooseUs = [
   },
   {
     title: "Free Transport",
-    desc: "Harga yang kami tawarkan di paket massage sudah termasuk transport",
+    desc: "The price we offer in the massage package includes transportation",
     icon: <FcShipped size={80} />,
   },
   {
     title: "24 Hours Service",
-    desc: "The price we offer in the massage package includes transportation",
+    desc:
+      "We open a 24-hour on call massage service for the Denpasar & Badung area of ​​​​Bali",
     icon: <FcClock size={80} />,
   },
   {
