@@ -108,13 +108,13 @@ const whyChooseUs = [
   {
     title: "24 Hours Service",
     desc:
-      "We open a 24-hour on call massage service for the Denpasar & Badung area of ​​​​Bali",
+      "We open a 24-hour on call massage service for the Denpasar & Badung area of ​​​​Bali.",
     icon: <FcClock size={80} />,
   },
   {
     title: "Guaranteed Cleanliness",
     desc:
-      "Massage cloths are guaranteed to be clean, fragrant and not used by people",
+      "Massage cloths are guaranteed to be clean, fragrant and not used by people.",
     icon: <FcApproval size={80} />,
   },
 ]
