@@ -13,7 +13,7 @@ import { FaWhatsapp } from "@react-icons/all-files/fa/FaWhatsapp"
 import Header from "../header"
 import Content from "../content"
 import Footer from "../footer"
-import { useSticky } from "../../hooks"
+// import { useSticky } from "../../hooks"
 // import "../../utils/fontawesome"
 
 const Layout = ({ children }) => {
@@ -26,20 +26,20 @@ const Layout = ({ children }) => {
       }
     }
   `)
-  const { isSticky, element } = useSticky()
+  // const { isSticky, element } = useSticky()
 
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <Header
-        sticky={isSticky}
-        stickyRef={element}
+        // sticky={isSticky}
+        // stickyRef={element}
         siteTitle={data.site.siteMetadata?.title || `Title`}
       />
       <Content>{children}</Content>
       <Footer />
       <div className="fixed w-36 right-1 bottom-5 md:right-0 md:bottom-10 z-30">
         <a
-          href="https://api.whatsapp.com/send?phone=6281236583768&text=Hallo NBest, I Want To Book a Massage."
+          href="https://api.whatsapp.com/send?phone=6282139702121&text=Hallo NBest, I Want To Book a Massage."
           className="py-1 animate-bounce h-5 w-full flex items-center justify-center border border-transparent text-base font-medium rounded-full md:rounded-r-none shadow-lg text-white bg-green-500 hover:bg-green-600"
         >
           <span className="mr-2">Contact Us</span>

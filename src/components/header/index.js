@@ -4,6 +4,7 @@ import { Popover, Transition } from "@headlessui/react"
 import { HiMenu } from "@react-icons/all-files/hi/HiMenu"
 import { HiX } from "@react-icons/all-files/hi/HiX"
 import { StaticImage } from "gatsby-plugin-image"
+import useSticky from "../../hooks/useSticky"
 
 const navigation = [
   { name: "About Us", href: "#about-us" },
@@ -11,7 +12,8 @@ const navigation = [
   { name: "Prices", href: "#prices" },
 ]
 
-const Header = ({ siteTitle, sticky, stickyRef }) => {
+const Header = ({ siteTitle }) => {
+  const { isSticky, element } = useSticky()
   const buttonRef = React.useRef()
   const handleClickPanel = () => {
     buttonRef.current?.click()
@@ -19,7 +21,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
   return (
     <header
       className={`bg-white w-full transition duration-200 ease-in-out ${
-        sticky
+        isSticky
           ? "fixed -top-24 animated z-50 shadow-lg transform translate-y-24 "
           : "relative top-0"
       }`}
@@ -31,7 +33,7 @@ const Header = ({ siteTitle, sticky, stickyRef }) => {
               <nav
                 className="relative flex items-center justify-between lg:justify-start"
                 aria-label="Global"
-                ref={stickyRef}
+                ref={element}
               >
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
