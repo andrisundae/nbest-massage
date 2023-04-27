@@ -341,7 +341,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Silver
+                Nbest-Silver
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -369,7 +369,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="w-full px-8 py-5 text-3xl font-bold text-center">
-                Gold
+                Nbest-Gold
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -397,7 +397,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Platinum
+                Nbest-Platinum
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
