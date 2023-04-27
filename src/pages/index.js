@@ -341,7 +341,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Silver Reguler one therapist 
+                Silver
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -371,7 +371,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="w-full px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Gold Duo Terapist 
+                Gold 
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -407,7 +407,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Platinum special request message
+                Platinum
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
