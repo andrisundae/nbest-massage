@@ -345,6 +345,7 @@ const IndexPage = () => (
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
+                  one therapist
                   60 minutes 299K
                   90 minutes 499K
                   120 minutes 599K
@@ -375,6 +376,8 @@ const IndexPage = () => (
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
+                  Duo therapist
+                  
                   Couple message :
                   60 minutes 599K       
                   90 minutes 899K
