@@ -341,11 +341,13 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Silver
+                Nbest-Silver Reguler one therapist 
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  60 minutes
+                  60 minutes 299K
+                  90 minutes 499K
+                  120 minutes 599K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -369,11 +371,13 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="w-full px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Gold
+                Nbest-Gold duo terapist 
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  90 minutes
+                  60 minutes 599K       
+                  90 minutes 899K
+                  120 minutes 1199K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -397,11 +401,12 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Platinum
+                Nbest-Platinum special request message
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  120 minutes
+                  cellulite massage 60 minutes 400K       
+                  Hot Stone massage 90 minutes 899K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
