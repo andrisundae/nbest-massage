@@ -375,15 +375,15 @@ const IndexPage = () => (
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  <p>Couple message :</p>
-                  <p>60 minutes 599K       
+                  Couple message :
+                  60 minutes 599K       
                   90 minutes 899K
-                  120 minutes 1199K</p>
+                  120 minutes 1199K
                   
-                  <p>4 Hand message :</p>
-                  <p>60 minutes 599K       
+                  4 Hand message :
+                  60 minutes 599K       
                   90 minutes 899K
-                  120 minutes 1199K</p>
+                  120 minutes 1199K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
