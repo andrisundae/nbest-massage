@@ -26,17 +26,6 @@ const settings = {
   // cssEase: "linear",
 }
 
-<!-- Google tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-245316981-1">
-</script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-245316981-1');
-</script>
-
 const layanan = [
   {
     title: "Full Body Massage",
