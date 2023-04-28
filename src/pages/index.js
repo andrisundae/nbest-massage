@@ -334,10 +334,7 @@ const IndexPage = () => (
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  one therapist
-                  60 minutes 299K
-                  90 minutes 499K
-                  120 minutes 599K
+                  One therapist
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -346,6 +343,9 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
+                <p>60 minutes 299K
+                  90 minutes 499K
+                  120 minutes 599K</p>
                 <p>
                   Full body massage, balinese massage, javanese massage, VIP
                   reflexy massage
@@ -366,16 +366,6 @@ const IndexPage = () => (
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
                   Duo therapist
-                  
-                  Couple message :
-                  60 minutes 599K       
-                  90 minutes 899K
-                  120 minutes 1199K
-                  
-                  4 Hand message :
-                  60 minutes 599K       
-                  90 minutes 899K
-                  120 minutes 1199K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -384,6 +374,9 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
+                <p>60 minutes 599K       
+                  90 minutes 899K
+                  120 minutes 1199K</p>
                 <p>
                   Full body massage, balinese massage, javanese massage, VIP
                   reflexy massage
@@ -403,8 +396,6 @@ const IndexPage = () => (
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  cellulite massage 60 minutes 400K       
-                  Hot Stone massage 90 minutes 899K
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -413,6 +404,8 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
+                <p>60 minutes 400K       
+                  90 minutes 899K</p>
                 <p>
                   Full body massage, balinese massage, javanese massage, VIP
                   reflexy massage
