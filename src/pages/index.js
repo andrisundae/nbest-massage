@@ -412,6 +412,70 @@ const IndexPage = () => (
                 </p>
               </div>
             </div>
+            <div className="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
+            <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
+              <StaticImage
+                className="w-full rounded-t-lg opacity-90"
+                src="../images/relaxing-spa-1.jpg"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Certificate"
+              />
+              <div className="px-8 py-5 text-3xl font-bold text-center">
+                Nbest-Diamond
+              </div>
+              <div className="border-0 border-grey-light border-t border-solid text-sm">
+                <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
+                  One therapist
+                </div>
+              </div>
+              <div className="w-full text-center px-8 mt-8">
+                <span className="text-base text-indigo-500">IDR</span>{" "}
+                <span className="text-4xl text-indigo-500 font-bold">250K</span>
+              </div>
+              <div className="mt-3 text-base text-gray-900">
+                <p>Packages :</p>
+                <p>60 minutes 299K
+                  90 minutes 499K
+                  120 minutes 599K</p>
+                <p>
+                  Full body massage, balinese massage, javanese massage, VIP
+                  reflexy massage
+                </p>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
+            <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
+              <StaticImage
+                className="w-full rounded-t-lg opacity-90"
+                src="../images/relaxing-spa-1.jpg"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Certificate"
+              />
+              <div className="px-8 py-5 text-3xl font-bold text-center">
+                Nbest-Pearl
+              </div>
+              <div className="border-0 border-grey-light border-t border-solid text-sm">
+                <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
+                  One therapist
+                </div>
+              </div>
+              <div className="w-full text-center px-8 mt-8">
+                <span className="text-base text-indigo-500">IDR</span>{" "}
+                <span className="text-4xl text-indigo-500 font-bold">250K</span>
+              </div>
+              <div className="mt-3 text-base text-gray-900">
+                <p>Packages :</p>
+                <p>60 minutes 299K
+                  90 minutes 499K
+                  120 minutes 599K</p>
+                <p>
+                  Full body massage, balinese massage, javanese massage, VIP
+                  reflexy massage
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
