@@ -338,17 +338,16 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">IDR</span>{" "}
+                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
                 <span className="text-4xl text-indigo-500 font-bold">250K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>60 minutes 299K
-                  90 minutes 499K
-                  120 minutes 599K</p>
+                <p>60 minutes 300K</p>
+                <p>90 minutes 400K</p>
+                <p>120 minutes 550K</p>
                 <p>
-                  Full body massage, balinese massage, javanese massage, VIP
-                  reflexy massage
+                ( Balinese Massage, javanese massage, lomi lomi massage, reflexy, Aromatherapy massage)
                 </p>
               </div>
             </div>
