@@ -317,7 +317,7 @@ const IndexPage = () => (
           Prices and Treatment
         </h1>
         <div className="text-gray-500 mt-3 sm:mt-5 sm:text-lg md:mt-5 md:text-xl max-w-3xl lg:mx-auto">
-          <p>One therapist for one customer.</p>
+          <p>PACKAGE NBEST BALI MASSAGE</p>
         </div>
         <div className="mt-10">
           <div className="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
