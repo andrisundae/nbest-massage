@@ -389,11 +389,11 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-              Nbest-Platinum
+              Special Request(Platinum)
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  Special Request 1 Therapist
+                  One Therapist
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
@@ -402,15 +402,11 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>60 minutes 400K       
-                  90 minutes 899K</p>
-                <p>
-                  Full body massage, balinese massage, javanese massage, VIP
-                  reflexy massage
-                </p>
+                <p>60 minutes 400K</p>       
+                <p>90 minutes 899K</p>
+                <p>We Also  Provide  For GROUP (  Party , Sport event , vacation event  ETC)</p>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
