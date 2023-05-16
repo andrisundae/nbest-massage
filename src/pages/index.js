@@ -330,16 +330,16 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-                Nbest-Silver
+                Reguler (Silver)
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  Regular 1 Therapist
+                  One Therapist
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
                 <span className="text-base text-indigo-500">Start From IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">250K</span>
+                <span className="text-4xl text-indigo-500 font-bold">300K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
@@ -347,7 +347,7 @@ const IndexPage = () => (
                 <p>90 minutes 400K</p>
                 <p>120 minutes 550K</p>
                 <p>
-                ( Balinese Massage, javanese massage, lomi lomi massage, reflexy, Aromatherapy massage)
+                (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
                 </p>
               </div>
             </div>
@@ -360,25 +360,23 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="w-full px-8 py-5 text-3xl font-bold text-center">
-              Nbest-Gold 
+              Twins Massage (Gold) 
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  Twins Massage 2 Therapist
+                  Two Therapist
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">300K</span>
+                <span className="text-base text-indigo-500">Only IDR</span>{" "}
+                <span className="text-4xl text-indigo-500 font-bold">600K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>60 minutes 599K       
-                  90 minutes 899K
-                  120 minutes 1199K</p>
+                <p>Couple Massage 60 minutes 600K</p>      
+                <p>Four Hands Massage  60 minute 600k</p>
                 <p>
-                  Full body massage, balinese massage, javanese massage, VIP
-                  reflexy massage
+                (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
                 </p>
               </div>
             </div>
