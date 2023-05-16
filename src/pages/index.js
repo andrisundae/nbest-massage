@@ -374,7 +374,7 @@ const IndexPage = () => (
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
                 <p>Couple Massage 60 minutes 600K</p>      
-                <p>Four Hands Massage  60 minute 600k</p>
+                <p>Four Hands Massage  60 minute 600K</p>
                 <p>
                 (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
                 </p>
@@ -397,13 +397,18 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">IDR</span>{" "}
-                <span className="text-4xl text-indigo-500 font-bold">400K</span>
+                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
+                <span className="text-4xl text-indigo-500 font-bold">200K</span>
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>60 minutes 400K</p>       
-                <p>90 minutes 899K</p>
+                <p>Sellulite Massage 60 minute 550K</p>       
+                <p>Hot Stone Massage 60 minute 550K</p>
+                <p>Shiatsu Massage 60 minute 450K</p>
+                <p>Pregnancy Massage 60 minute 450K</p>
+                <p>Baby Massage 30 minute 200K</p>
+                <p>Deep Tissue 60 minute 400K</p>
+
                 <p>We Also  Provide  For GROUP (  Party , Sport event , vacation event  ETC)</p>
               </div>
             </div>
