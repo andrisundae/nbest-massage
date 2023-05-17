@@ -419,6 +419,40 @@ const IndexPage = () => (
                 </div>
               </div>
             </div>
+
+            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
+              <StaticImage
+                className="w-full rounded-t-lg opacity-90"
+                src="../images/relaxing-spa-2.jpg"
+                quality={95}
+                formats={["AUTO", "WEBP", "AVIF"]}
+                alt="Certificate"
+              />
+              <div className="px-8 py-5 text-3xl font-bold text-center">
+              New Packages()
+              </div>
+              <div className="border-0 border-grey-light border-t border-solid text-sm">
+                <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
+                  More Therapist
+                </div>
+              </div>
+              <div className="w-full text-center px-8 mt-8">
+                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
+                <span className="text-4xl text-indigo-500 font-bold">200K</span>
+              </div>
+              <div className="mt-3 text-base text-gray-900">
+                <p>Packages :</p>
+                <p>Sellulite Massage 60 minute 550K</p>       
+                <p>Hot Stone Massage 60 minute 550K</p>
+                <p>Shiatsu Massage 60 minute 450K</p>
+                <p>Pregnancy Massage 60 minute 450K</p>
+                <div className="px-5 py-2 text-1xl font-bold text-center">
+                  <i>
+                  We Also  Provide  For GROUP (Party , Sport event , vacation event  ETC)
+                </i>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
