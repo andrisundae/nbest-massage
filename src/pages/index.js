@@ -420,7 +420,7 @@ const IndexPage = () => (
               </div>
             </div>
 
-            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
+            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-green-500 to-white mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
                 src="../images/relaxing-spa-2.jpg"
@@ -429,7 +429,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-              New Packages()
+              BEAUTY TREATMENT 
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -442,13 +442,14 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>Sellulite Massage 60 minute 550K</p>       
-                <p>Hot Stone Massage 60 minute 550K</p>
-                <p>Shiatsu Massage 60 minute 450K</p>
-                <p>Pregnancy Massage 60 minute 450K</p>
+                <p>Pedicure 200K</p>       
+                <p>Nail Gel 200K</p>
+                <p>Waxing Negotiable</p>
+                <p>Eyelashesh Negotiable</p>
+                <p>Eye brow embroidery  Negotiable</p> 
                 <div className="px-5 py-2 text-1xl font-bold text-center">
                   <i>
-                  We Also  Provide  For GROUP (Party , Sport event , vacation event  ETC)
+                  (Best Nanny Care 24 Hour By Appointment Negotiable)
                 </i>
                 </div>
               </div>
