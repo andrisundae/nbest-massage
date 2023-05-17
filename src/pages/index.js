@@ -442,9 +442,7 @@ const IndexPage = () => (
                 <p>Eyelashesh Negotiable</p>
                 <p>Eye brow embroidery  Negotiable</p> 
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                  <i>
                   (Best Nanny Care 24 Hour By Appointment Negotiable)
-                </i>
                 </div>
               </div>
             </div>
