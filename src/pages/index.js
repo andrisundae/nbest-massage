@@ -321,7 +321,7 @@ const IndexPage = () => (
         </div>
         <div className="mt-10">
           <div className="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
-            <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
+            <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
                 src="../images/relaxing-spa-1.jpg"
@@ -353,7 +353,7 @@ const IndexPage = () => (
                 </div>
               </div>
             </div>
-            <div className="pb-8 flex-1 lg:flex-initial lg:w-1/3 rounded-lg bg-gradient-to-r from-yellow-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
+            <div className="pb-8 flex-1 lg:flex-initial lg:w-1/4 rounded-lg bg-gradient-to-r from-yellow-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
                 src="../images/relaxing-spa-3.jpg"
@@ -384,7 +384,7 @@ const IndexPage = () => (
                 </div>
               </div>
             </div>
-            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
+            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
                 src="../images/relaxing-spa-2.jpg"
@@ -420,10 +420,10 @@ const IndexPage = () => (
               </div>
             </div>
 
-            <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/3 rounded-lg rounded-l-none bg-gradient-to-r from-green-500 to-white mt-4 flex flex-col">
+            <div className="pb-8 flex-1 lg:flex-initial lg:w-1/4 rounded-lg bg-gradient-to-r from-green-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
-                src="../images/relaxing-spa-2.jpg"
+                src="../images/relaxing-spa-4.jpg"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Certificate"
