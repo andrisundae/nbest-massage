@@ -344,10 +344,10 @@ const IndexPage = () => (
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
                 <p>60 minutes 300K</p>
-                <p>90 minutes 400K</p>
-                <p>120 minutes 550K</p>
+                <p>90 minutes 500K</p>
+                <p>120 minutes 600K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                    (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
+                  (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
                 </div>
               </div>
             </div>
@@ -430,7 +430,7 @@ const IndexPage = () => (
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
-                  More Therapist
+                  One Therapist
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
