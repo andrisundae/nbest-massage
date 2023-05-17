@@ -347,9 +347,7 @@ const IndexPage = () => (
                 <p>90 minutes 400K</p>
                 <p>120 minutes 550K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                  <i>
                     (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
-                </i>
                 </div>
               </div>
             </div>
@@ -378,9 +376,7 @@ const IndexPage = () => (
                 <p>Couple Massage 60 minutes 600K</p>      
                 <p>Four Hands Massage  60 minute 600K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                  <i>
                     (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
-                </i>
                 </div>
               </div>
             </div>
@@ -406,16 +402,14 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
-                <p>Sellulite Massage 60 minute 550K</p>       
+                <p>Cellulite Massage 60 minute 550K</p>       
                 <p>Hot Stone Massage 60 minute 550K</p>
                 <p>Shiatsu Massage 60 minute 450K</p>
                 <p>Pregnancy Massage 60 minute 450K</p>
                 <p>Baby Massage 30 minute 200K</p>
                 <p>Deep Tissue 60 minute 400K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                  <i>
                   We Also  Provide  For GROUP (Party , Sport event , vacation event  ETC)
-                </i>
                 </div>
               </div>
             </div>
@@ -429,7 +423,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-              BEAUTY TREATMENT 
+              Beauty Treatment 
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
