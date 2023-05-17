@@ -346,8 +346,11 @@ const IndexPage = () => (
                 <p>60 minutes 300K</p>
                 <p>90 minutes 400K</p>
                 <p>120 minutes 550K</p>
-                <div className="px-5 py-2 text-3xl font-bold text-center"><i>Test</i></div>
-                <p>(Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)</p>
+                <div className="px-5 py-2 text-1xl font-bold text-center">
+                  <i>
+                    (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
+                </i>
+                </div>
               </div>
             </div>
             <div className="pb-8 flex-1 lg:flex-initial lg:w-1/3 rounded-lg bg-gradient-to-r from-yellow-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
