@@ -346,7 +346,7 @@ const IndexPage = () => (
                 <p>60 minutes 300K</p>
                 <p>90 minutes 400K</p>
                 <p>120 minutes 550K</p>
-                <div className="px-8 py-5 text-3xl font-bold text-center">Test</div>
+                <div className="px-5 py-2 text-3xl font-bold text-center"><i>Test</i></div>
                 <p>(Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)</p>
               </div>
             </div>
