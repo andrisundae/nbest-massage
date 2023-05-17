@@ -409,7 +409,7 @@ const IndexPage = () => (
                 <p>Baby Massage 30 minute 200K</p>
                 <p>Deep Tissue 60 minute 400K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
-                  We Also  Provide  For GROUP (Party , Sport event , vacation event  ETC)
+                  We Also  Provide  For GROUP (Party, Sport Event, Vacation Event ETC)
                 </div>
               </div>
             </div>
