@@ -408,6 +408,9 @@ const IndexPage = () => (
                 <p>Pregnancy Massage 60 minute 450K</p>
                 <p>Baby Massage 30 minute 200K</p>
                 <p>Deep Tissue 60 minute 400K</p>
+                <p>Extra Facial 150K</p>
+                <p>Extra Scrub 150K</p>
+                <p>Extra Scrape/Kerokan 100K</p>
                 <div className="px-5 py-2 text-1xl font-bold text-center">
                   We Also  Provide  For GROUP (Party, Sport Event, Vacation Event ETC)
                 </div>
@@ -436,6 +439,7 @@ const IndexPage = () => (
               </div>
               <div className="mt-3 text-base text-gray-900">
                 <p>Packages :</p>
+                <p>Menicure 200K</p>
                 <p>Pedicure 200K</p>       
                 <p>Nail Gel 200K</p>
                 <p>Waxing Negotiable</p>
