@@ -34,7 +34,7 @@ const layanan = [
     icon: (
       <StaticImage
         className="h-15 w-15"
-        src="../images/svg/aromatherapy.svg"
+        src="../images/svg/020-aromatherapy.svg"
         height={100}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Full Body Massage"
