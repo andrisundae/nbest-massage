@@ -324,7 +324,7 @@ const IndexPage = () => (
             <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
-                src="../images/relaxing-spa-1.jpg"
+                src="../images/relaxing-spa-1new.jpg"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Certificate"
@@ -354,7 +354,7 @@ const IndexPage = () => (
             <div className="pb-8 flex-1 lg:flex-initial lg:w-1/4 rounded-lg bg-gradient-to-r from-yellow-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
-                src="../images/relaxing-spa-3.jpg"
+                src="../images/relaxing-spa-3new.jpg"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Certificate"
@@ -383,7 +383,7 @@ const IndexPage = () => (
             <div className="pb-8 shadow-lg flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-l-none bg-gradient-to-r from-gray-500 to-white mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
-                src="../images/relaxing-spa-2.jpg"
+                src="../images/relaxing-spa-2new.jpg"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Certificate"
@@ -420,7 +420,7 @@ const IndexPage = () => (
             <div className="pb-8 flex-1 lg:flex-initial lg:w-1/4 rounded-lg bg-gradient-to-r from-green-300 to-white mt-4 sm:-mt-4 sm:-mb-4 shadow-lg z-30 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
-                src="../images/relaxing-spa-4.jpg"
+                src="../images/relaxing-spa-4new.jpg"
                 quality={95}
                 formats={["AUTO", "WEBP", "AVIF"]}
                 alt="Certificate"
