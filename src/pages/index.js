@@ -34,7 +34,7 @@ const layanan = [
     icon: (
       <StaticImage
         className="h-15 w-15"
-        src="../images/svg/full-body-massage.svg"
+        src="../images/svg/aromatherapy.svg"
         height={100}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Full Body Massage"
@@ -79,7 +79,7 @@ const layanan = [
     icon: (
       <StaticImage
         className="h-15 w-15"
-        src="../images/svg/vip-massage.svg"
+        src="../images/svg/006-massage-1.svg"
         height={100}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="VIP Reflexy Massage"
