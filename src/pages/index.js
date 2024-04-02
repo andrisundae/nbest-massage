@@ -49,7 +49,7 @@ const layanan = [
     icon: (
       <StaticImage
         className="h-15 w-15"
-        src="../images/svg/balinese-massage.svg"
+        src="../images/svg/010-spa-1.svg"
         height={100}
         formats={["AUTO", "WEBP", "AVIF"]}
         alt="Balinese Massage"
