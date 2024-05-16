@@ -105,12 +105,12 @@ const whyChooseUs = [
     desc: "The price we offer in the massage package includes transportation",
     icon: <FcShipped size={80} />,
   },
-  {
-    title: "24 Hours Service",
-    desc:
-      "We open a 24-hour on call massage service for the Denpasar & Badung area of ​​​​Bali.",
-    icon: <FcClock size={80} />,
-  },
+  // {
+  //   title: "24 Hours Service",
+  //   desc:
+  //     "We open a 24-hour on call massage service for the Denpasar & Badung area of ​​​​Bali.",
+  //   icon: <FcClock size={80} />,
+  // },
   {
     title: "Guaranteed Cleanliness",
     desc:
@@ -122,7 +122,7 @@ const whyChooseUs = [
 const messages = [
   {
     comment:
-      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open 24 hours so it can help if I'm tired after work.",
+      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open flexible hours so it can help if I'm tired after work.",
     name: "Rendi",
   },
   {
@@ -132,7 +132,7 @@ const messages = [
   },
   {
     comment:
-      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open 24 hours so it can help if I'm tired after work.",
+      "Nbest Bali Massage provides good & professional service with friendly therapists. The on-call massage service is also open flexible hours so it can help if I'm tired after work.",
     name: "Albert",
   },
 ]
@@ -188,20 +188,20 @@ const IndexPage = () => (
         <h1 className="text-center text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
           About Us
         </h1>
-        <div className="text-gray-800 md:text-gray-500 mt-3 sm:mt-5 sm:text-lg md:mt-5 md:text-xl max-w-3xl lg:mx-auto">
+        <div className="text-gray-700 mt-3 sm:mt-5 sm:text-lg md:mt-5 md:text-xl max-w-3xl lg:mx-auto">
           <p>
-            <span className="font-bold">NBest bali massage</span> will give you
+            <span className="font-extrabold text-black leading-relaxed">NBest bali massage</span> will give you
             a completely relaxing full body massage will make you feel fantastic
             . No matter what time of day or night you receive a message.
           </p>
-          <div className="mt-3">
+          <div className="mt-3 leading-relaxed">
             We show you about real massage feels like, Choose Our therapist
             women/ man and they all completely with certificate skill book us
             will give you the best massage. We will come to your home or hotel
             room so that it is convenient and private. You no need to have to go
             to massage parlor or a spa to get the relaxation.
             <p className="mt-3 font-bold">So, Make your day special.</p>
-            <div className="mt-5">
+            <div className="mt-10">
               <h3 className="text-3xl my-3 text-gray-900">Certificate</h3>
               <StaticImage
                 className="w-full md:w-1/2 rounded-lg opacity-80"
@@ -279,7 +279,7 @@ const IndexPage = () => (
         <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
           Our Services
         </h1>
-        <div className="text-gray-800 mt-3 sm:mt-5 sm:text-lg md:mt-5 md:text-xl max-w-3xl lg:mx-auto">
+        <div className="text-gray-800 mt-3 sm:mt-5 sm:text-lg md:mt-5 md:text-xl max-w-3xl lg:mx-auto prose">
           <p>
             Our services are aimed only at customers satisfaction. We focus on
             complete customer satisfaction to ensure repeat business. Our staff
@@ -302,17 +302,14 @@ const IndexPage = () => (
                   {item.title}
                 </p>
               </dt>
-              <dd className="mt-5 text-gray-500">{item.desc}</dd>
+              <dd className="mt-5 text-gray-500 prose">{item.desc}</dd>
             </div>
           )
         })}
       </div>
     </section>
-    <section
-      id="prices"
-      className="container px-8 py-10 text-base mt-8 bg-white"
-    >
-      <div className="mx-auto text-center py-16 bg-clip-border border-4 border-indigo-300 border-dashed lg:w-10/12">
+    <section id="prices" className="p-5 text-base mt-8 bg-white">
+      <div className="mx-auto text-center py-16 bg-clip-border border-4 border-indigo-300 border-dashed">
         <h1 className="text-3xl tracking-tight font-extrabold text-gray-900 sm:text-4xl">
           Prices and Treatment
         </h1>
@@ -321,7 +318,7 @@ const IndexPage = () => (
         </div>
         <div className="mt-10">
           <div className="flex flex-col sm:flex-row justify-center mb-6 sm:mb-0">
-            <div className="pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
+            <div className="px-2 pb-8 shadow-lg bg-gradient-to-r from-gray-300 to-white sm:flex-1 lg:flex-initial lg:w-1/4 rounded-lg rounded-tr-none rounded-br-none mt-4 flex flex-col">
               <StaticImage
                 className="w-full rounded-t-lg opacity-90"
                 src="../images/relaxing-spa-1new.jpg"
@@ -338,16 +335,19 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
+                <span className="text-base text-indigo-500">
+                  Start From IDR
+                </span>{" "}
                 <span className="text-4xl text-indigo-500 font-bold">300K</span>
               </div>
-              <div className="mt-3 text-base text-gray-900">
+              <div className="mt-8 text-lg text-gray-900 leading-relaxed space-y-4">
                 <p>Packages :</p>
                 <p>60 minutes 300K</p>
                 <p>90 minutes 500K</p>
                 <p>120 minutes 600K</p>
-                <div className="px-5 py-2 text-1xl font-bold text-center">
-                  (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
+                <div className="px-2 mt-10 text-lg font-bold text-center prose">
+                  (Balinese Massage, Javanese Massage, Lomi-lomi Massage,
+                  Reflexy, Aromatherapy Massage)
                 </div>
               </div>
             </div>
@@ -360,7 +360,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="w-full px-8 py-5 text-3xl font-bold text-center">
-              Twins Massage (Gold) 
+                Twins Massage (Gold)
               </div>
               <div className="w-full border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -371,12 +371,13 @@ const IndexPage = () => (
                 <span className="text-base text-indigo-500">Only IDR</span>{" "}
                 <span className="text-4xl text-indigo-500 font-bold">600K</span>
               </div>
-              <div className="mt-3 text-base text-gray-900">
+              <div className="mt-8 text-lg text-gray-900 leading-relaxed space-y-4 px-2">
                 <p>Packages :</p>
-                <p>Couple Massage 60 minutes 600K</p>      
-                <p>Four Hands Massage  60 minute 600K</p>
-                <div className="px-5 py-2 text-1xl font-bold text-center">
-                    (Balinese Massage, Javanese Massage, Lomi-lomi Massage, Reflexy, Aromatherapy Massage)
+                <p>Couple Massage 60 minutes 600K</p>
+                <p>Four Hands Massage 60 minute 600K</p>
+                <div className="px-2 mt-10 text-lg font-bold text-center prose">
+                  (Balinese Massage, Javanese Massage, Lomi-lomi Massage,
+                  Reflexy, Aromatherapy Massage)
                 </div>
               </div>
             </div>
@@ -389,7 +390,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-              Special Request (Platinum)
+                Special Request (Platinum)
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -397,12 +398,14 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
+                <span className="text-base text-indigo-500">
+                  Start From IDR
+                </span>{" "}
                 <span className="text-4xl text-indigo-500 font-bold">200K</span>
               </div>
-              <div className="mt-3 text-base text-gray-900">
+              <div className="mt-8 text-lg text-gray-900 leading-relaxed space-y-4 px-2">
                 <p>Packages :</p>
-                <p>Cellulite Massage 60 minute 550K</p>       
+                <p>Cellulite Massage 60 minute 550K</p>
                 <p>Hot Stone Massage 60 minute 550K</p>
                 <p>Shiatsu Massage 60 minute 450K</p>
                 <p>Pregnancy Massage 60 minute 450K</p>
@@ -411,8 +414,9 @@ const IndexPage = () => (
                 <p>Extra Facial 150K</p>
                 <p>Extra Scrub 150K</p>
                 <p>Extra Scrape/Kerokan 100K</p>
-                <div className="px-5 py-2 text-1xl font-bold text-center">
-                  We Also  Provide  For GROUP (Party, Sport Event, Vacation Event ETC)
+                <div className="px-2 mt-10 text-lg font-bold text-center prose">
+                  We Also Provide For GROUP (Party, Sport Event, Vacation Event
+                  ETC)
                 </div>
               </div>
             </div>
@@ -426,7 +430,7 @@ const IndexPage = () => (
                 alt="Certificate"
               />
               <div className="px-8 py-5 text-3xl font-bold text-center">
-              Beauty Treatment 
+                Beauty Treatment
               </div>
               <div className="border-0 border-grey-light border-t border-solid text-sm">
                 <div className="text-xl text-center border-0 border-grey-light border-b border-solid py-4">
@@ -434,19 +438,21 @@ const IndexPage = () => (
                 </div>
               </div>
               <div className="w-full text-center px-8 mt-8">
-                <span className="text-base text-indigo-500">Start From IDR</span>{" "}
+                <span className="text-base text-indigo-500">
+                  Start From IDR
+                </span>{" "}
                 <span className="text-4xl text-indigo-500 font-bold">200K</span>
               </div>
-              <div className="mt-3 text-base text-gray-900">
+              <div className="mt-8 text-lg text-gray-900 leading-relaxed space-y-4 px-2">
                 <p>Packages :</p>
                 <p>Menicure 200K</p>
-                <p>Pedicure 200K</p>       
+                <p>Pedicure 200K</p>
                 <p>Nail Gel 200K</p>
                 <p>Waxing Negotiable</p>
                 <p>Eyelashesh Negotiable</p>
-                <p>Eye brow embroidery  Negotiable</p> 
-                <div className="px-5 py-2 text-1xl font-bold text-center">
-                  (Best Nanny Care 24 Hour By Appointment Negotiable)
+                <p>Eye brow embroidery Negotiable</p>
+                <div className="px-2 mt-10 text-lg font-bold text-center prose">
+                  (Best Nanny Care Flexible Hour By Appointment Negotiable)
                 </div>
               </div>
             </div>

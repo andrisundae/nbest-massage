@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "NBEST Bali Massage",
-    description: `Layanan Jasa pijat spa massage panggilan ke rumah, kos, hotel, villa dan apartemen 24 jam.`,
+    description: `Layanan Jasa pijat spa massage panggilan ke rumah, kos, hotel, villa dan apartemen jam flexible.`,
     author: `@gatsbyjs`,
     // secret: {
     //   googleMapsKey: 'AIzaSyAwPcluBKt-t-ZaWdkZ0wxaKPBSDSDctFg'

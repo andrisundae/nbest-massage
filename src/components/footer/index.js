@@ -64,7 +64,7 @@ function Footer() {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-400">
+                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-300">
                         Call us or write us to book your first appointment with
                         the therapist from - NBest bali massage. When you
                         contact us, it helps to have in mind what massage you
@@ -94,7 +94,7 @@ function Footer() {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-400">
+                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-300">
                         <p className="font-bold mb-4 animate-bounce text-red-200">
                           Only in 30 minutes
                         </p>
@@ -132,8 +132,8 @@ function Footer() {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-400">
-                        <ol className="list-decimal ml-5">
+                      <Disclosure.Panel className="px-4 pt-4 pb-2 text-base text-gray-300">
+                        <ol className="list-decimal ml-5 space-y-4">
                           <li>
                             We accept, IDR, US Dollar, Euro, RMB, and any other
                             kind of major international currency.
@@ -165,6 +165,7 @@ function Footer() {
             </div>
             <div>
               <a
+                aria-label="Link"
                 href="https://api.whatsapp.com/send?phone=6282139702121&text=Hallo NBest, I Want To Book a Massage."
                 className="w-full uppercase flex items-center justify-center px-8 py-3 border border-transparent text-sm font-medium rounded-full text-white bg-green-400 hover:bg-green-500 md:py-4 md:text-lg md:px-10"
               >
@@ -176,7 +177,7 @@ function Footer() {
               <h1 className="text-white text-2xl md:text-3xl tracking-tight font-extrabold">
                 NBest Bali Massage
               </h1>
-              <div className="flex flex-col justify-center text-gray-400 mt-5 space-y-2">
+              <div className="flex flex-col justify-center text-gray-300 mt-5 space-y-4">
                 <div className="flex items-center space-x-3">
                   <PhoneIcon
                     className="h-12 w-12 md:h-6 md:w-6"
@@ -237,7 +238,7 @@ function Footer() {
                 <ul className="list-unstyled">
                   <li>
                     <a
-                      className="text-gray-400 hover:text-white font-semibold block pb-2 text-sm"
+                      className="text-gray-300 hover:text-white font-semibold block pb-2 text-sm"
                       href="#about-us"
                     >
                       About Us
@@ -245,7 +246,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      className="text-gray-400 hover:text-white font-semibold block pb-2 text-sm"
+                      className="text-gray-300 hover:text-white font-semibold block pb-2 text-sm"
                       href="#services"
                     >
                       Services
@@ -253,7 +254,7 @@ function Footer() {
                   </li>
                   <li>
                     <a
-                      className="text-gray-400 hover:text-white font-semibold block pb-2 text-sm"
+                      className="text-gray-300 hover:text-white font-semibold block pb-2 text-sm"
                       href="#prices"
                     >
                       Prices
@@ -267,11 +268,11 @@ function Footer() {
         <hr className="my-6 border-gray-400" />
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div className="text-sm text-gray-400 font-semibold py-1">
+            <div className="text-sm text-gray-300 font-semibold py-1">
               Copyright © {new Date().getFullYear()} nbestbalimassage by{" "}
               <a
                 href="https://www.linkedin.com/in/akhmad-andi-nurdiansyah-25a5aa64/"
-                className="text-gray-400 hover:text-white"
+                className="text-gray-300 hover:text-white"
               >
                 andrissundae
               </a>
