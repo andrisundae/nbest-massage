@@ -1,11 +1,10 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import { StaticImage } from "gatsby-plugin-image"
 import Slider from "react-slick"
-
 import { HiPhone } from "@react-icons/all-files/hi/HiPhone"
 import { HiMail } from "@react-icons/all-files/hi/HiMail"
 import { FaMap } from "@react-icons/all-files/fa/FaMap"
-import { FcClock } from "@react-icons/all-files/fc/FcClock"
+// import { FcClock } from "@react-icons/all-files/fc/FcClock"
 import { FcShipped } from "@react-icons/all-files/fc/FcShipped"
 import { FcBusinesswoman } from "@react-icons/all-files/fc/FcBusinesswoman"
 import { FcApproval } from "@react-icons/all-files/fc/FcApproval"

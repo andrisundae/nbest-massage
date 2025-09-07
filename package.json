@@ -49,9 +49,12 @@
     "@img/sharp-libvips-darwin-x64": "1.0.2",
     "@img/sharp-libvips-darwin-arm64": "1.0.2"
   },
-  "keywords": ["gatsby"],
+  "keywords": [
+    "gatsby"
+  ],
   "license": "0BSD",
   "scripts": {
+    "preinstall": "corepack enable",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -64,6 +67,11 @@
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
-  "bugs": { "url": "https://github.com/gatsbyjs/gatsby/issues" },
-  "engines": { "node": "20.x" }
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "packageManager": "yarn@3.6.4"
 }
