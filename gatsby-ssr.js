@@ -1,29 +1,47 @@
 // gatsby-ssr.js
 import React from "react";
 
-export const onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
-  // Google Tag Manager untuk HEAD
+const GTM_ID = process.env.GATSBY_GTM_ID; // ganti dengan GTM kamu
+
+export const onRenderBody = ({ setHeadComponents, setPreBodyComponents }) => {
   setHeadComponents([
-    React.createElement("script", {
-      key: "gtm-head",
-      dangerouslySetInnerHTML: {
+    // Consent Mode default (sebelum GTM)
+    <script
+      key="consent-defaults"
+      dangerouslySetInnerHTML={{
+        __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('consent', 'default', {
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+          });
+        `,
+      }}
+    />,
+    // GTM (HEAD)
+    <script
+      key="gtm-head"
+      dangerouslySetInnerHTML={{
         __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
           j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PKRXKLHR');`,
-      },
-    }),
+        })(window,document,'script','dataLayer','${GTM_ID}');`,
+      }}
+    />,
   ]);
 
-  // Google Tag Manager (noscript) untuk setelah <body>
-  setPostBodyComponents([
-    React.createElement("noscript", {
-      key: "gtm-body",
-      dangerouslySetInnerHTML: {
-        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PKRXKLHR"
+  // GTM <noscript> – WAJIB di awal <body>
+  setPreBodyComponents([
+    <noscript
+      key="gtm-body"
+      dangerouslySetInnerHTML={{
+        __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
           height="0" width="0" style="display:none;visibility:hidden"></iframe>`,
-      },
-    }),
+      }}
+    />,
   ]);
 };
